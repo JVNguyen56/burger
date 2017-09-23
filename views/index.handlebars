@@ -19,7 +19,7 @@
 			  {{#each burgers}}
 			    {{#unless this.devoured}}
 			      <li>
-			      	{{this.burger_id}}
+			      	{{this.id}}
 			        {{this.burger_name}}
 
 			        <form action="/{{this.burger_id}}?_method=PUT" method="POST">
